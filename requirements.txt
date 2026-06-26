@@ -1,0 +1,30 @@
+# Modbus Security Scanner - Requirements
+# 
+# NOTE: This tool requires ZERO runtime dependencies!
+# All imports are from Python Standard Library
+#
+# Python 3.7+ includes all required modules:
+# - socket (network communication)
+# - struct (binary data packing)
+# - ssl (TLS/encryption)
+# - json (report generation)
+# - time (performance measurements)
+# - datetime (timestamps)
+# - threading (concurrent operations)
+# - typing (type hints)
+# - argparse (command-line arguments)
+# - pathlib (file operations)
+#
+# Installation:
+#   No pip install needed! Just run:
+#   python3 modbus_scanner.py -t <TARGET_IP>
+#
+# Python 3.7+ Requirement:
+#   This tool requires Python 3.7 or higher
+#   Verify with: python3 --version
+#
+# For Development (optional):
+# pytest>=6.0          # For testing
+# black>=21.0          # Code formatting
+# pylint>=2.9          # Code analysis
+# sphinx>=4.0          # Documentation
